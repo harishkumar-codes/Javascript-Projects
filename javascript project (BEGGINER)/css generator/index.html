@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="box">
+        <div class="tools">
+<div class="form">
+   
+    <label for="all"> all corner
+        <span id="all-value">10 px</span> </label>
+            <input type="range" value="10"  min="10" max="400" id="all">
+
+           <label for="all">
+                border size
+                <span id="border-value">3 px</span> </label>
+                    <input type="range" value="3"  min="1" max="20" id="border">
+        
+        
+            <div class="form">
+                <label for="border-style">border style
+
+                </label>
+                <select  id="border-style">
+                    <option >solid</option>
+                    <option >double</option>
+                    <option >dash</option>
+                    <option >ridge</option>
+                    <option >insert</option>
+                    <option >outset</option>
+                </select>
+            </div>
+          <div class="form">
+            <textarea  id="code"></textarea>
+          </div>
+
+          <div class="form">
+           <button id="copy">copy code</button>
+          </div>
+        </div>
+        </div>
+
+    </div>
+   
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
