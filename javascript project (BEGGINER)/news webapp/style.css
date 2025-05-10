@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    background-color: rgb(62, 56, 56);
+    color: white;
+}
+.obj-width{
+    max-width: 1200px;
+    margin: auto;
+}
+nav{
+    background-color: green;
+  
+}
+
+ nav .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.3rem 0 ;
+}
+.logo{
+    color: white;
+    text-decoration: none;
+    font: 800;
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+#seachinput{
+    max-width: 400px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 13px;
+    font-size: 18px;
+    color: black;
+}
+#searchBtn{
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    font-size: 19px;
+    cursor: pointer;
+    border-radius: 13px;
+}
+#blog-container{
+    padding: 3rem 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-start;
+  flex-wrap: wrap;
+}
+.blogCard{
+   width: 280px;
+   border: 1px solid white;
+   border-radius: 13px;
+   cursor: pointer;
+padding: 20px;
+margin: 10px;
+
+}
+.blogCard img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.blogCard:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+  
+}
+.blogCard h2{
+    color: black;
+    font-size: 1.7rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.blogCard p{
+    font-size: 1.2rem;
+    padding-top:5px ;
+}
+.Knowbtn{
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 13px;
+    padding: 6px;
+}
